@@ -1,0 +1,35 @@
+nav{
+    height: 10vh;
+    background-color: blueviolet;
+    display: flex;
+    padding: 5px 40px;
+    justify-content: left;
+}
+.nav_dash{
+    font-size:5vh;
+    color: white;
+    text-transform: capitalize;
+}
+form{
+    display: flex;
+    height: 30px;
+    align-self: center;
+    margin-left: 25px;
+}
+.nav_icon{
+padding: 10px;
+color: rgb(205, 224, 247);
+}
+input{
+    padding: 10px;
+    width: 40vw;
+    border: none;
+    background-color: blueviolet;
+}
+input::placeholder{
+    color: white;
+   
+}
+input:focus{
+    background-color: white;
+}

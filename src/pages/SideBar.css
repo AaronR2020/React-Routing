@@ -1,0 +1,34 @@
+.side-bar{
+    width: 20vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+}
+.side-bar-ul{
+    margin: 0 0;
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    padding: 20px 0;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+}
+a:any-link{
+    color: blueviolet;
+}
+.sideBar_link{
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.sideBar_link:hover{
+    background: rgb(194, 194, 194);
+    color: white;
+}
